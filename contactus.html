@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>  
+        <nav> 
+             <ul class="left-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop1.html">MakeOrder</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="shop1.html"><ion-icon name="cart"></ion-icon></a></li>
+            </ul>
+        </nav>
+        <ul class="right-links">
+            <li><a href="LoginPneuma.html">Login</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <p><strong>Contact us about anything related to our company or services. We'll do our best to get back to you as soon as possible.</strong></p>
+        <form action="/Project/contact.php/" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="youremail@email.com" required><br>
+
+            <label for="phone" class="phone_field">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" class="phone_field"><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject of your message" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea><br>
+
+            <label for="question">Question:</label>
+            <textarea id="question" name="question" rows="3" placeholder="Write your question here" required></textarea><br>
+
+            <!-- <label for="subject2" class="message_field">Subject:</label>
+            <input type="text" id="subject2" name="subject2" placeholder="Subject of your message" class="message_field"><br> -->
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <div class="footer-container">
+          <div class="social-links">
+            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+          </div>
+          <div class="contact-info">
+            <p>
+              <span class="contact-label">Call Us</span>
+              <span class="contact-details">+256 704 041 236</span>
+            </p>
+            <p>
+              <span class="contact-label">Email:</span>
+              <span class="contact-details">pneumacafe@gmail.com</span>
+            </p>
+            <p>
+              <span class="contact-label">Address:</span>
+              <span class="contact-details">Kololo Avenue Plot 48, Kampala, Uganda</span>
+            </p>
+          </div>
+         </div>
+         <p class="copyright">&copy; [2024] Cakely. All Rights Reserved</p>
+      </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* home.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f1f1f1; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the height of the viewport */
+}
+
+header {
+    background-image: url('banner-5.jpg'); /* Set background image for header */
+    background-size: cover; /* Cover the entire header */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px;
+}
+
+main {
+    background-image: url('banner-6.jpg'); /* Set the same background image for main content */
+    background-size: cover; /* Cover the entire main content */
+    background-position: center; /* Center the background image */
+    flex: 1; /* Grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+.logo img {
+    width: 30px; /* Adjust width as needed */
+    height: auto;
+}
+
+.top-container {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center; /* Vertically center links */
+}
+
+.corner-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 5px;
+    text-align: right; /* Align text to the right */
+}
+
+.corner-links a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.start-order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-order-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+.separator {
+    width: 100%; /* Full width separator */
+    border: none;
+    height: 1px; /* Adjust thickness as needed */
+    background-color: #ddd;
+    margin: 10px 0; /* Add space above and below */
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    background-color: grey; /* Set footer background to transparent */
+}

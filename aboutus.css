@@ -1,0 +1,152 @@
+/* Resetting default margin and padding */
+body, header, nav, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.left-links {
+    list-style-type: none;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.left-links li {
+    display: inline;
+    margin-right: 20px; /* Add margin between links */
+}
+
+.left-links li:last-child {
+    margin-right: 0; /* Remove margin for the last link */
+}
+
+.left-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.left-links li a:hover {
+    color: #e74c3c; /* Change to your preferred hover color */
+}
+
+
+.right-links {
+    list-style-type: none;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.right-links li {
+    display: inline;
+    margin-left: 20px; /* Add margin between links */
+}
+
+.right-links li:first-child {
+    margin-left: 0; /* Remove margin for the first link */
+}
+
+.right-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.right-links li a:hover {
+    color: #e74c3c; /* Change to your preferred hover color */
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+    background-image: url('banner-9.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero {
+    width: 100%;
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us-text {
+    max-width: 600px;
+}
+
+
+footer {
+    width: 100%;
+        background-color: #333; /* Change background color as needed */
+        color: white; /* Set text color to white for better visibility */
+        padding: 20px;
+        text-align: center; /* Center align footer content */
+        margin-top: auto;
+    }
+    
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-label {
+    font-weight: bold;
+}
